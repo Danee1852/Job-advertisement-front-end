@@ -6,7 +6,8 @@ import { useState } from 'react';
 const Navbar = () => {
 
     const [clicked, setClciked] = useState(false);
-
+    const [isLoggedIn, setIsLoggedIn] = useState(false);       // use this for condition rendering sign in and sign up buttons   
+                                                            // when the user is logged in, the button should contains user name
     const handleClick = () => {
         setClciked(!clicked);
     }
@@ -16,10 +17,13 @@ const Navbar = () => {
             <div className='logo'>
                 <img src={Logo} alt='logo' />
             </div>
+         
             <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
-                <li className='nav-item'><a href ='/'>Job offers</a></li>
-                <li className='nav-item'><a href ='/'>About Us</a></li>
-                <li className='nav-item'><a href ='/'>Contact</a></li>
+                <li className='nav-item'><a href ='/' className="nav-item-text">Job offers</a></li>
+                <li className='nav-item'><a href ='/' className="nav-item-text">About Us</a></li>
+                <li className='nav-item'><a href ='/' className="nav-item-text">Contact</a></li>
+                <li className='nav-item'><a href ='/'><button className="nav-buttons">Sign In</button></a></li>  
+                <li className='nav-item'><a href ='/'><button className="nav-buttons">Sign Up</button></a></li>
             </ul>
 
             <div className='hamburger' onClick={handleClick}>
