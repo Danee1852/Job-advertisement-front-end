@@ -1,5 +1,4 @@
-
-.signup-container {
+.signin-container {
     background: #4a75f8fd;
     width: 100%;
     min-height: 100vh;
@@ -8,21 +7,20 @@
     align-items: center;
 }
 
-.signup-wrapper {
+.signin-wrapper {
     background-color: white;
     min-width: 350px;
-    min-height: 650px;
+    min-height: 450px;
     padding: 30px;
     box-sizing: border-box;
     border-radius: 5px;
 }
-.signup-title {
+.signin-title {
     color: #4a75f8fd;
     text-align: center;
-    margin: 80px 0px 40px 0px;
+    margin: 40px 0px 40px 0px;
 }
-
-.signup-form-input {
+.signin-form-input {
     height: 30px;
     font-size: 20px;
     outline: none;
@@ -34,8 +32,6 @@
     margin-bottom: 10px;
 }
 
-.firstname-wrapper,
-.lastname-wrapper,
 .email-wrapper,
 .password-wrapper {
     margin: 20px;
@@ -64,19 +60,20 @@
     color: black;
 }
 
-.signup-form-footer{
+.signin-form-footer{
     margin-top: 40px;
     font-size: 15px;
 
 }
 
-.signin-shortcut{
+.signup-shortcut{
     color: black;
     width: 70px;
     text-decoration:underline;
     
 }
-.signin-shortcut:hover {
+
+.signup-shortcut:hover {
     color: #4a75f8fd;
     cursor: pointer;
 }

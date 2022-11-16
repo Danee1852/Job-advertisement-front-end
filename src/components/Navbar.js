@@ -2,6 +2,7 @@ import Logo from '../images/Logo1.png';
 import './Navbar.css';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import { useState } from 'react';
+import {Link} from "react-router-dom"
 
 const Navbar = () => {
 
@@ -22,8 +23,8 @@ const Navbar = () => {
                 <li className='nav-item'><a href ='/' className="nav-item-text">Job offers</a></li>
                 <li className='nav-item'><a href ='/' className="nav-item-text">About Us</a></li>
                 <li className='nav-item'><a href ='/' className="nav-item-text">Contact</a></li>
-                <li className='nav-item'><a href ='/'><button className="nav-buttons">Sign In</button></a></li>  
-                <li className='nav-item'><a href ='/'><button className="nav-buttons">Sign Up</button></a></li>
+                <li className='nav-item'><Link to="/signin"><button className="nav-buttons">Sign In</button></Link></li>  
+                <li className='nav-item'><Link to="/signup"><button className="nav-buttons">Sign Up</button></Link></li>
             </ul>
 
             <div className='hamburger' onClick={handleClick}>

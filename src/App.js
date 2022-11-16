@@ -1,13 +1,17 @@
-import Navbar from './components/Navbar'
+import { Routes, Route } from "react-router-dom"
+
 import MainCard from "./components/MainCard"
-import CompanyMini from "./components/CompanyMini"
+
 import SignUpForm from "./components/SignUpForm"
+import SignInForm from "./components/SignInForm"
 function App() {
   return (
     <div>
-        <Navbar />
-        <MainCard/>
-        <CompanyMini/>
+      <Routes>          
+          <Route path="/" element={<MainCard/>} />
+          <Route path="signin" element={<SignInForm />} />
+          <Route path="signup" element={<SignUpForm />} />
+      </Routes>
        
     </div>
   );

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './SignUpForm.css';
+import {Link} from "react-router-dom"
 
 
 export default function SignUpForm() {
@@ -33,7 +34,7 @@ export default function SignUpForm() {
                 <div className="signup-title">
                     <h2>Create Account</h2>
                     </div>
-                <form className="signup-form-wrapper">
+                <form onSubmit={handleSubmit} className="signup-form-wrapper">
                     <div className="firstname-wrapper">
                         <label className="signup-form-label">First Name</label>
                         <input
@@ -58,7 +59,7 @@ export default function SignUpForm() {
                         <label className="signup-form-label">Email</label>
                         <input 
                         className="signup-form-input"
-                        type="text"
+                        type="email"
                         name="email"
                         value={formSignUpData.email}
                         onChange={handleChange}
@@ -68,14 +69,18 @@ export default function SignUpForm() {
                         <label className="signup-form-label">Password</label>
                         <input 
                         className="signup-form-input"
-                        type="text"
+                        type="password"
                         name="password"
                         value={formSignUpData.password}
                         onChange={handleChange}
                         />
                     </div>
                     <div>
-                        <button onClick={handleSubmit} className="submitbutton">Sign Up</button>
+                        <button className="submitbutton">Sign Up</button>
+                    </div>
+                    <div className="signup-form-footer">
+                        <p>Alredy have an Account ?</p>
+                        <Link to="/signin"><p className="signin-shortcut">Sign in</p></Link>
                     </div>
                 </form>
 
