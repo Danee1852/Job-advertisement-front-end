@@ -12,8 +12,8 @@ export default function MainCard () {
             <div className="mainCard">
                 <p className="card--motivate--text">„Whatever you are, be a good one.” - Abraham Lincoln</p>
                 <h3 className="card--advertisement--title">Alredy recruiting</h3>
-                <CompanyMini />
             </div>
+            <CompanyMini />
         </section>
         
     )

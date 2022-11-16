@@ -6,10 +6,15 @@
     align-items: center;
     padding: 1rem;
     background-color: var(--darkgrey);
+    border-bottom: solid 2px rgb(0, 0, 0);
 }
+
 
 .navbar img {
     width: 400px;
+    -webkit-filter: drop-shadow(5px 5px 5px #000000);
+        filter: drop-shadow(5px 5px 5px #000000);
+    
 }
 .nav-menu {
     display: flex;
@@ -22,6 +27,7 @@
 }
 
 .nav-item-text {
+    text-shadow: 3px 5px 9px rgb(0, 0, 0);
     transition-duration: 0.4s;
 }
 
@@ -35,6 +41,8 @@
 
 }
 .nav-buttons {
+    box-shadow: rgba(0,0,0,0.3) 0px 19px 38px,
+        rgba(0,0,0,0.22) 0px 15px 12px;
     color: black;
     font-size: 16px;
     padding: 6px 20px;
