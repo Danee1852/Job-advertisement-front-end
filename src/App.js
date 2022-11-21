@@ -1,11 +1,12 @@
 import { Routes, Route } from "react-router-dom"
-
 import MainCard from "./components/MainCard"
-
 import SignUpForm from "./components/SignUpForm"
 import SignInForm from "./components/SignInForm"
-function App() {
+
+export default function App() {
+  
   return (
+    
     <div>
       <Routes>          
           <Route path="/" element={<MainCard/>} />
@@ -17,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+

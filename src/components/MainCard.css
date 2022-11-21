@@ -1,7 +1,4 @@
 
-
-
-
 .background--image {
         opacity: 0.5;
         width: 100%;
@@ -32,4 +29,13 @@
         justify-content: center;
         margin-bottom: 70px;
         
+}
+
+.joblist-item {
+        display: inline-block;
+}
+
+.joblist-wrapper{
+        display: flex;
+        justify-content: center;
 }

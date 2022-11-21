@@ -12,6 +12,8 @@ const Navbar = () => {
     const handleClick = () => {
         setClciked(!clicked);
     }
+
+   
     return(
 
         <div className='navbar'>
@@ -24,7 +26,7 @@ const Navbar = () => {
                 <li className='nav-item'><a href ='/' className="nav-item-text">About Us</a></li>
                 <li className='nav-item'><a href ='/' className="nav-item-text">Contact</a></li>
                 <li className='nav-item'><Link to="/signin"><button className="nav-buttons">Sign In</button></Link></li>  
-                <li className='nav-item'><Link to="/signup"><button className="nav-buttons">Sign Up</button></Link></li>
+                <li className='nav-item'><Link to="/signup">{<button className="nav-buttons">Sign Up</button>}</Link></li>
             </ul>
 
             <div className='hamburger' onClick={handleClick}>
