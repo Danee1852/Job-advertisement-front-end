@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/Danee1852/job-advertisement-front-end/blob/main/public/assets/Made_with_Linux_casper.svg" width="300px">
+</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
