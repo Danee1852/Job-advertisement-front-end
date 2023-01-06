@@ -5,7 +5,6 @@ import Navbar from './Navbar'
 import joboffers from "../JobOffersData"
 
 export default function MainCard () {
-
     const jobList = joboffers.map(joboffer => {
         return (
             joboffer.isactive? 

@@ -1,8 +1,8 @@
-[
+export const data = [
     {
       "id": 1,
       "company": "StyleArt",
-      "logo": "../images/company_logo.png",
+      "logo": require("../images/company_logo.png"),
       "position": "Senior Frontend Developer",
       "role": "Frontend",
       "level": "Senior",
@@ -15,12 +15,12 @@
     {
       "id": 2,
       "company": "Manage",
-      "logo": "../images/company_logo.png",
+      "logo": require("../images/company_logo.png"),
       "position": "Fullstack Developer",
       "role": "Fullstack",
       "level": "Mid",
       "postedAt": "1d ago",
-      "contract": "Part Time Contract",
+      "contract": ["Part Time Contract"],
       "location": "Krakow",
       "languages": ["Python", "JavaScript"],
       "tools": ["ReactJs"]
@@ -28,12 +28,12 @@
     {
       "id": 3,
       "company": "Account",
-      "logo": "../images/company_logo.png",
+      "logo": require("../images/company_logo.png"),
       "position": "Junior Frontend Developer",
       "role": "Frontend",
       "level": "Junior",
       "postedAt": "2d ago",
-      "contract": "Part Time Contract",
+      "contract": ["Part Time Contract"],
       "location": "Warsaw",
       "languages": ["JavaScript"],
       "tools": ["ReactJs", "Sass"]
@@ -41,7 +41,7 @@
     {
       "id": 4,
       "company": "MyHome",
-      "logo": "../images/company_logo.png",
+      "logo": require("../images/company_logo.png"),
       "position": "Junior Frontend Developer",
       "role": "Frontend",
       "level": "Junior",
@@ -54,12 +54,12 @@
     {
       "id": 5,
       "company": "Loop Studios",
-      "logo": "../images/company_logo.png",
+      "logo": require("../images/company_logo.png"),
       "position": "Software Engineer",
       "role": "FullStack",
       "level": "Midweight",
       "postedAt": "1w ago",
-      "contract": "Full Time Contract",
+      "contract": ["Full Time Contract"],
       "location": "Warsaw",
       "languages": ["Ruby", "JavaScript", "HTML"],
       "tools": ["Sass", "Angular"]
@@ -67,12 +67,12 @@
     {
       "id": 6,
       "company": "FaceIt",
-      "logo": "../images/company_logo.png",
+      "logo": require("../images/company_logo.png"),
       "position": "Junior Backend Developer",
       "role": "Backend",
       "level": "Junior",
       "postedAt": "2w ago",
-      "contract": "Full Time Contract",
+      "contract": ["Full Time Contract"],
       "location": "Warsaw",
       "languages": ["Ruby"],
       "tools": ["RoR"]
@@ -80,7 +80,7 @@
     {
       "id": 7,
       "company": "JsWorkers",
-      "logo": "../images/company_logo.png",
+      "logo": require("../images/company_logo.png"),
       "position": "Junior Developer",
       "role": "Frontend",
       "level": "Junior",
@@ -93,12 +93,12 @@
     {
       "id": 8,
       "company": "Insure",
-      "logo": "../images/company_logo.png",
+      "logo": require("../images/company_logo.png"),
       "position": "Junior Frontend Developer",
       "role": "Frontend",
       "level": "Junior",
       "postedAt": "2w ago",
-      "contract": "Full Time Contract",
+      "contract": ["Full Time Contract"],
       "location": "Wroclaw",
       "languages": ["JavaScript"],
       "tools": ["Vue", "Sass"]
@@ -106,12 +106,12 @@
     {
       "id": 9,
       "company": "Eyecam Co.",
-      "logo": "../images/company_logo.png",
+      "logo": require("../images/company_logo.png"),
       "position": "Full Stack Engineer",
       "role": "Fullstack",
       "level": "Midweight",
       "postedAt": "3w ago",
-      "contract": "Full Time Contract",
+      "contract": ["Full Time Contract"],
       "location": "Warsaw",
       "languages": ["JavaScript", "Java"],
       "tools": ["Spring Boot","ReactJs"]
@@ -119,12 +119,12 @@
     {
       "id": 10,
       "company": "The programmers",
-      "logo": "../images/company_logo.png",
+      "logo": require("../images/company_logo.png"),
       "position": "Front-end Dev",
       "role": "Frontend",
       "level": "Junior",
       "postedAt": "1mo ago",
-      "contract": "Part Time Contract",
+      "contract": ["Part Time Contract"],
       "location": "Warsaw",
       "languages": ["JavaScript"],
       "tools": ["React", "Sass"]

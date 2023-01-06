@@ -1,6 +1,6 @@
 
 .signup-container {
-    background: var(--signmaincolor);
+    background: var(--main);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -17,7 +17,7 @@
     border-radius: 5px;
 }
 .signup-title {
-    color: var(--signmaincolor);
+    color: var(--main);
     text-align: center;
     margin: 80px 0px 40px 0px;
 }
@@ -50,7 +50,7 @@
     border-radius: 25px;
     color: white;
     padding: 10px 60px;
-    background: var(--signmaincolor);
+    background: var(--main);
     box-shadow: rgba(0,0,0,0.3) 0px 19px 38px,
         rgba(0,0,0,0.22) 0px 15px 12px;
     margin: auto;
@@ -77,6 +77,6 @@
     
 }
 .signin-shortcut:hover {
-    color: var(--signmaincolor);
+    color: var(--main);
     cursor: pointer;
 }

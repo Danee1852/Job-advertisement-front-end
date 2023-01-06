@@ -1,0 +1,52 @@
+
+.jobBoard{
+    padding: 50px;
+    background-color: var(--main);
+}
+
+.company_logo {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: black;
+    padding: 1px;
+    width: 110px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.jobWrapper {
+    height: 150px;
+    width: auto;
+    background-color: #fff;
+    display:flex;
+    align-items: center;
+    margin: 5px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.positionName {
+    color: black;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.companyName {
+    padding: 12px;
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.companyDetails {
+    color: var(--grey);
+    font-size: 17px;
+}
+
