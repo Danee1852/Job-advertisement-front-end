@@ -1,6 +1,6 @@
 # About project: :bulb:
 
-It is a front-end part of my main project which I'm still developing. It is a web job advertisement site which is build witch using ReactJs Library. 
+It is a front-end part of my main project which I'm still developing. It is a job advertisement site which is build with using ReactJs Library. 
 
 #
 <table class="table table-dark table-striped">
@@ -12,11 +12,11 @@ It is a front-end part of my main project which I'm still developing. It is a we
   <tbody>
                         <tr>
                           <td>• Create main page and navbar component</td>
-                          <td>  </td>
+                          <td>• Add custom search jobs</td>
                         </tr>
                         <tr>
                           <td>• Create login form</td>
-                          <td> </td>
+                          <td>• Use JSON Server API for storing and providing data </td>
                         </tr>
     <tr>
                           <td>• Create register form</td>
