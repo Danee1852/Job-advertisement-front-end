@@ -1,8 +1,9 @@
-export const data = [
-    {
+{
+    "jobList": [
+      {
       "id": 1,
       "company": "StyleArt",
-      "logo": require("../images/company_logo.png"),
+      "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Senior Frontend Developer",
       "role": "Frontend",
       "level": "Senior",
@@ -15,7 +16,7 @@ export const data = [
     {
       "id": 2,
       "company": "Manage",
-      "logo": require("../images/company_logo.png"),
+      "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Fullstack Developer",
       "role": "Fullstack",
       "level": "Mid",
@@ -28,7 +29,7 @@ export const data = [
     {
       "id": 3,
       "company": "Account",
-      "logo": require("../images/company_logo.png"),
+      "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Junior Frontend Developer",
       "role": "Frontend",
       "level": "Junior",
@@ -41,7 +42,7 @@ export const data = [
     {
       "id": 4,
       "company": "MyHome",
-      "logo": require("../images/company_logo.png"),
+      "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Junior Frontend Developer",
       "role": "Frontend",
       "level": "Junior",
@@ -54,7 +55,7 @@ export const data = [
     {
       "id": 5,
       "company": "Loop Studios",
-      "logo": require("../images/company_logo.png"),
+      "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Software Engineer",
       "role": "FullStack",
       "level": "Midweight",
@@ -67,7 +68,7 @@ export const data = [
     {
       "id": 6,
       "company": "FaceIt",
-      "logo": require("../images/company_logo.png"),
+      "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Junior Backend Developer",
       "role": "Backend",
       "level": "Junior",
@@ -80,7 +81,7 @@ export const data = [
     {
       "id": 7,
       "company": "JsWorkers",
-      "logo": require("../images/company_logo.png"),
+      "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Junior Developer",
       "role": "Frontend",
       "level": "Junior",
@@ -93,7 +94,7 @@ export const data = [
     {
       "id": 8,
       "company": "Insure",
-      "logo": require("../images/company_logo.png"),
+      "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Junior Frontend Developer",
       "role": "Frontend",
       "level": "Junior",
@@ -106,7 +107,7 @@ export const data = [
     {
       "id": 9,
       "company": "Eyecam Co.",
-      "logo": require("../images/company_logo.png"),
+      "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Full Stack Engineer",
       "role": "Fullstack",
       "level": "Midweight",
@@ -119,7 +120,7 @@ export const data = [
     {
       "id": 10,
       "company": "The programmers",
-      "logo": require("../images/company_logo.png"),
+      "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Front-end Dev",
       "role": "Frontend",
       "level": "Junior",
@@ -130,3 +131,5 @@ export const data = [
       "tools": ["React", "Sass"]
     }
   ]
+}
+
