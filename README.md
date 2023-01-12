@@ -16,23 +16,27 @@ It is a front-end part of my main project which I'm still developing. It is a jo
                         </tr>
                         <tr>
                           <td>• Create login form</td>
-                          <td>• Use JSON Server API for storing and providing data </td>
+                          <td>• Add possibility to add a new job</td>
                         </tr>
     <tr>
                           <td>• Create register form</td>
-                          <td> </td>
+                          <td>• Add possibility to edit and detele job </td>
                         </tr>
     <tr>
                           <td>• Create job listing page witch get the data from a JSON object</td>
-                          <td>  </td>
+                          <td>• Create job details component  </td>
                         </tr>
     <tr>
                           <td>• Add routing </td>
                           <td> </td>
                         </tr>
+    <tr>
+                          <td>• Use JSON Server API for storing and providing data </td>
+                          <td> </td>
+                        </tr>
     </tbody>
                       </table>
-
+ 
 ## 🛠 Technologies Used:
 - JavaScript
 - React.js with hooks
