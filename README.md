@@ -24,7 +24,7 @@ It is a front-end part of my main project which I'm still developing. It is a jo
                         </tr>
     <tr>
                           <td>• Create job listing page witch get the data from a JSON object</td>
-                          <td>• Create job details component  </td>
+                          <td>• Add possibility to apply job </td>
                         </tr>
     <tr>
                           <td>• Add routing </td>
@@ -32,6 +32,10 @@ It is a front-end part of my main project which I'm still developing. It is a jo
                         </tr>
     <tr>
                           <td>• Use JSON Server API for storing and providing data </td>
+                          <td> </td>
+                        </tr>
+    <tr>
+                          <td>• Create job details component </td>
                           <td> </td>
                         </tr>
     </tbody>
