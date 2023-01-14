@@ -11,7 +11,14 @@
       "contract": ["B2B", "Full Time Contract"],
       "location": "Warsaw",
       "languages": ["HTML", "CSS", "JavaScript"],
-      "tools": []
+      "tools": [],
+      "responsibles": [
+        "Work closely with the CTO",
+        "Build many third-party integrations, while ensuring scalability and stability",
+        "Real product ownership, your work will directly shape the company",
+        "You will be responsible for complex business logic"
+      ],
+      "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
     {
       "id": 2,
@@ -24,7 +31,14 @@
       "contract": ["Part Time Contract"],
       "location": "Krakow",
       "languages": ["Python", "JavaScript"],
-      "tools": ["ReactJs"]
+      "tools": ["ReactJs"],
+      "responsibles": [
+        "Work closely with the CTO",
+        "Build many third-party integrations, while ensuring scalability and stability",
+        "Real product ownership, your work will directly shape the company",
+        "You will be responsible for complex business logic"
+      ],
+      "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
     {
       "id": 3,
@@ -37,7 +51,14 @@
       "contract": ["Part Time Contract"],
       "location": "Warsaw",
       "languages": ["JavaScript"],
-      "tools": ["ReactJs", "Sass"]
+      "tools": ["ReactJs", "Sass"],
+      "responsibles": [
+        "Work closely with the CTO",
+        "Build many third-party integrations, while ensuring scalability and stability",
+        "Real product ownership, your work will directly shape the company",
+        "You will be responsible for complex business logic"
+      ],
+      "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
     {
       "id": 4,
@@ -50,7 +71,14 @@
       "contract": ["B2B", "Full Time Contract"],
       "location": "Poznan",
       "languages": ["CSS", "JavaScript"],
-      "tools": ["Angular"]
+      "tools": ["Angular"],
+      "responsibles": [
+        "Work closely with the CTO",
+        "Build many third-party integrations, while ensuring scalability and stability",
+        "Real product ownership, your work will directly shape the company",
+        "You will be responsible for complex business logic"
+      ],
+      "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
     {
       "id": 5,
@@ -63,7 +91,14 @@
       "contract": ["Full Time Contract"],
       "location": "Warsaw",
       "languages": ["Ruby", "JavaScript", "HTML"],
-      "tools": ["Sass", "Angular"]
+      "tools": ["Sass", "Angular"],
+      "responsibles": [
+        "Work closely with the CTO",
+        "Build many third-party integrations, while ensuring scalability and stability",
+        "Real product ownership, your work will directly shape the company",
+        "You will be responsible for complex business logic"
+      ],
+      "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
     {
       "id": 6,
@@ -76,7 +111,14 @@
       "contract": ["Full Time Contract"],
       "location": "Warsaw",
       "languages": ["Ruby"],
-      "tools": ["RoR"]
+      "tools": ["RoR"],
+      "responsibles": [
+        "Work closely with the CTO",
+        "Build many third-party integrations, while ensuring scalability and stability",
+        "Real product ownership, your work will directly shape the company",
+        "You will be responsible for complex business logic"
+      ],
+      "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
     {
       "id": 7,
@@ -89,7 +131,14 @@
       "contract": ["B2B", "Full Time Contract"],
       "location": "Full Remote",
       "languages": ["HTML", "JavaScript"],
-      "tools": ["Sass","ReactJs"]
+      "tools": ["Sass","ReactJs"],
+      "responsibles": [
+        "Work closely with the CTO",
+        "Build many third-party integrations, while ensuring scalability and stability",
+        "Real product ownership, your work will directly shape the company",
+        "You will be responsible for complex business logic"
+      ],
+      "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
     {
       "id": 8,
@@ -102,7 +151,14 @@
       "contract": ["Full Time Contract"],
       "location": "Wroclaw",
       "languages": ["JavaScript"],
-      "tools": ["Vue", "Sass"]
+      "tools": ["Vue", "Sass"],
+      "responsibles": [
+        "Work closely with the CTO",
+        "Build many third-party integrations, while ensuring scalability and stability",
+        "Real product ownership, your work will directly shape the company",
+        "You will be responsible for complex business logic"
+      ],
+      "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
     {
       "id": 9,
@@ -115,7 +171,14 @@
       "contract": ["Full Time Contract"],
       "location": "Warsaw",
       "languages": ["JavaScript", "Java"],
-      "tools": ["Spring Boot","ReactJs"]
+      "tools": ["Spring Boot","ReactJs"],
+      "responsibles": [
+        "Work closely with the CTO",
+        "Build many third-party integrations, while ensuring scalability and stability",
+        "Real product ownership, your work will directly shape the company",
+        "You will be responsible for complex business logic"
+      ],
+      "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
     {
       "id": 10,
@@ -128,7 +191,14 @@
       "contract": ["Part Time Contract"],
       "location": "Warsaw",
       "languages": ["JavaScript"],
-      "tools": ["React", "Sass"]
+      "tools": ["React", "Sass"],
+      "responsibles": [
+        "Work closely with the CTO",
+        "Build many third-party integrations, while ensuring scalability and stability",
+        "Real product ownership, your work will directly shape the company",
+        "You will be responsible for complex business logic"
+      ],
+      "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     }
   ]
 }
