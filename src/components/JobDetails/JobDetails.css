@@ -1,0 +1,133 @@
+.jobDetailBoard{
+
+ background-color: var(--main);
+}
+
+.jobCompanyLogo {
+ height: 100px;
+ margin: 10px 10px 10px 30px;
+ border-radius: 5px;
+}
+
+.jobDetailWrapper {
+    
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    width: 690px;
+    height: 950px;
+}
+
+.jobDetailHeader {
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    
+}
+
+.positionName {
+    margin: 10px 0px 10px 0px;
+}
+
+.jobDetailIcons{
+    height: 62px;
+    width: 62px;
+}
+.jobDetailMainInfo{
+    display: grid;
+    column-gap: 160px;
+    row-gap: 50px;
+    grid-template-columns: 200px 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 0px 10px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.mainInfoContainer {
+    display:flex;
+    
+}
+
+.mainInfoText {
+    margin-top: 18px;
+    font-weight: 300;
+}
+
+.mainInfoTextContract{
+    margin: 5px;
+    font-size: 14px;
+    
+}
+
+.mainInfocontractContainer{
+    align-items: center;
+    display: flex;
+}
+
+
+.jobDetailDescription{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 50px 10px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.jobDetailDescription h3{
+    margin-bottom: 20px;
+}
+
+.jobDetailDescription p{
+    text-align: justify;
+    line-height: 25px;
+   
+}
+
+.jobDetailResponsible{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 50px 10px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.jobDetailResponsible h3 {
+    margin-bottom: 20px;
+}
+
+.jobDetailResponsible li {
+    text-align: justify;
+    line-height: 25px;
+}
+
+.jobDetailTechStack {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 50px 30px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.jobDetailTechStack h3 {
+    margin-bottom: 20px;
+}
+.jobDetailTechStack p {
+    margin-bottom: 10px;
+}
+
+.jobDetailTechStack li {
+    line-height: 25px;
+}
+
+.techstackWrapper {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}

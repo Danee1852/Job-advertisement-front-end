@@ -1,35 +1,40 @@
 //import JobData from "./jobsData"
 //import {data} from "../../public/jobsData"
 import {useState, useEffect} from "react"
+import {Link} from "react-router-dom"
 import "./JobList.css"
 import Navbar from "./Navbar"
 
-export default function JobList() {
+export default function JobList({listOfJobs}) {
 
-    const [listOfJobs, setListOfJobs] = useState(false)
+    // Put the state up for sharing data with other components
+
+    // const [listOfJobs, setListOfJobs] = useState(false)
     
-    const fetchData = async () => {
-        try {
-            const response = await fetch('http://localhost:8000/jobList')
-            const json = await response.json()
-            setListOfJobs(json)
-        } catch (err) {
-            console.log(err)
-        }
-    }
+    // const fetchData = async () => {
+    //     try {
+    //         const response = await fetch('http://localhost:8000/jobList')
+    //         const json = await response.json()
+    //         setListOfJobs(json)
+    //     } catch (err) {
+    //         console.log(err)
+    //     }
+    // }
 
-    useEffect(() => {
-        fetchData()
-    },[])
+    // useEffect(() => {
+    //     fetchData()
+    // },[])
 
-    console.log(listOfJobs)
+    //console.log(listOfJobs)
     const jobElements = listOfJobs && listOfJobs.map(job => { 
 
         return (
             
             <div key = {job.id} className="jobWrapper">
                 <div className="companyLogo">
-                    <img className = "company_logo" src = {job.logo}/>
+                    <Link to={`/jobDetails/${job.id}`}>
+                        <img className = "company_logo" src = {job.logo}/>
+                    </Link>
                 </div>
                 <div className="mainInfo">
                     <h3 className="positionName">{job.position}</h3>
@@ -56,7 +61,7 @@ export default function JobList() {
                     })}
                 </div>
             </div>
-        )
+             )
     })
 
     return (
