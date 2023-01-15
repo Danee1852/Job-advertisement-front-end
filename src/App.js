@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom"
 import {useState, useEffect} from "react"
-import MainCard from "./components/MainCard"
-import SignUpForm from "./components/SignUpForm"
-import SignInForm from "./components/SignInForm"
-import JobList from "./components/JobList"
+import MainCard from "./components/MainCard/MainCard"
+import SignUpForm from "./components/SignUpForm/SignUpForm"
+import SignInForm from "./components/SignInForm/SignInForm"
+import JobList from "./components/JobList/JobList"
 import JobDetails from "./components/JobDetails/JobDetails"
 
 export default function App() {

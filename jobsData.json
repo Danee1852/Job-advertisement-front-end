@@ -2,6 +2,8 @@
     "jobList": [
       {
       "id": 1,
+      "isactive": true,
+      "rating": 6,
       "company": "StyleArt",
       "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Senior Frontend Developer",
@@ -22,6 +24,8 @@
     },
     {
       "id": 2,
+      "isactive": true,
+      "rating": 4,
       "company": "Manage",
       "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Fullstack Developer",
@@ -42,6 +46,8 @@
     },
     {
       "id": 3,
+      "isactive": true,
+      "rating": 5,
       "company": "Account",
       "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Junior Frontend Developer",
@@ -62,6 +68,8 @@
     },
     {
       "id": 4,
+      "isactive": true,
+      "rating": 2,
       "company": "MyHome",
       "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Junior Frontend Developer",
@@ -82,6 +90,8 @@
     },
     {
       "id": 5,
+      "isactive": true,
+      "rating": 4,
       "company": "Loop Studios",
       "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Software Engineer",
@@ -102,6 +112,8 @@
     },
     {
       "id": 6,
+      "isactive": true,
+      "rating": 5,
       "company": "FaceIt",
       "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Junior Backend Developer",
@@ -122,6 +134,8 @@
     },
     {
       "id": 7,
+      "isactive": true,
+      "rating": 3,
       "company": "JsWorkers",
       "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Junior Developer",
@@ -142,6 +156,8 @@
     },
     {
       "id": 8,
+      "isactive": false,
+      "rating": 4,
       "company": "Insure",
       "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Junior Frontend Developer",
@@ -162,6 +178,8 @@
     },
     {
       "id": 9,
+      "isactive": true,
+      "rating": 6,
       "company": "Eyecam Co.",
       "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Full Stack Engineer",
@@ -182,6 +200,8 @@
     },
     {
       "id": 10,
+      "isactive": true,
+      "rating": 5,
       "company": "The programmers",
       "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "position": "Front-end Dev",

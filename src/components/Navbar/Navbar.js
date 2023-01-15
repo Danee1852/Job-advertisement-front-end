@@ -1,4 +1,4 @@
-import Logo from '../images/Logo1.png';
+import Logo from '../../images/Logo1.png';
 import './Navbar.css';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import { useState } from 'react';

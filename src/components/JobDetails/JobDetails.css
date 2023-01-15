@@ -123,6 +123,7 @@
 
 .jobDetailTechStack li {
     line-height: 25px;
+    margin-left: 15px;;
 }
 
 .techstackWrapper {

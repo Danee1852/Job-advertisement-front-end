@@ -1,9 +1,8 @@
 //import JobData from "./jobsData"
 //import {data} from "../../public/jobsData"
-import {useState, useEffect} from "react"
 import {Link} from "react-router-dom"
 import "./JobList.css"
-import Navbar from "./Navbar"
+import Navbar from "../Navbar/Navbar"
 
 export default function JobList({listOfJobs}) {
 
@@ -33,7 +32,7 @@ export default function JobList({listOfJobs}) {
             <div key = {job.id} className="jobWrapper">
                 <div className="companyLogo">
                     <Link to={`/jobDetails/${job.id}`}>
-                        <img className = "company_logo" src = {job.logo}/>
+                        <img className = "company_logo" src = {job.logo} alt="logo"/>
                     </Link>
                 </div>
                 <div className="mainInfo">

@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
 import "./JobDetails.css"
-import Navbar from "../Navbar.js"
+import Navbar from "../Navbar/Navbar.js"
 import locationPicture from "../../images/Location_Line.svg"
 import contractPicture from "../../images/Paper_Line.svg"
 import levelPicture from "../../images/Level Up_Line.svg"
@@ -64,7 +64,7 @@ export default function JobDetails({listOfJobs}) {
                     <h3>Requirements:</h3>
                     <div className="techstackWrapper">
                         <div>
-                            <p>Langiages: </p>
+                            <p>Languages: </p>
                             {job.languages.map((language)=> {
                                 return (
                                     <li>{language}</li>
