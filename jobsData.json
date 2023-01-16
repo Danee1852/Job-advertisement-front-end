@@ -1,6 +1,6 @@
 {
-    "jobList": [
-      {
+  "jobList": [
+    {
       "id": 1,
       "isactive": true,
       "rating": 6,
@@ -10,9 +10,16 @@
       "role": "Frontend",
       "level": "Senior",
       "postedAt": "1d ago",
-      "contract": ["B2B", "Full Time Contract"],
+      "contract": [
+        "B2B",
+        "Full Time Contract"
+      ],
       "location": "Warsaw",
-      "languages": ["HTML", "CSS", "JavaScript"],
+      "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
       "tools": [],
       "responsibles": [
         "Work closely with the CTO",
@@ -32,10 +39,17 @@
       "role": "Fullstack",
       "level": "Mid",
       "postedAt": "1d ago",
-      "contract": ["Part Time Contract"],
+      "contract": [
+        "Part Time Contract"
+      ],
       "location": "Krakow",
-      "languages": ["Python", "JavaScript"],
-      "tools": ["ReactJs"],
+      "languages": [
+        "Python",
+        "JavaScript"
+      ],
+      "tools": [
+        "ReactJs"
+      ],
       "responsibles": [
         "Work closely with the CTO",
         "Build many third-party integrations, while ensuring scalability and stability",
@@ -54,10 +68,17 @@
       "role": "Frontend",
       "level": "Junior",
       "postedAt": "2d ago",
-      "contract": ["Part Time Contract"],
+      "contract": [
+        "Part Time Contract"
+      ],
       "location": "Warsaw",
-      "languages": ["JavaScript"],
-      "tools": ["ReactJs", "Sass"],
+      "languages": [
+        "JavaScript"
+      ],
+      "tools": [
+        "ReactJs",
+        "Sass"
+      ],
       "responsibles": [
         "Work closely with the CTO",
         "Build many third-party integrations, while ensuring scalability and stability",
@@ -76,10 +97,18 @@
       "role": "Frontend",
       "level": "Junior",
       "postedAt": "5d ago",
-      "contract": ["B2B", "Full Time Contract"],
+      "contract": [
+        "B2B",
+        "Full Time Contract"
+      ],
       "location": "Poznan",
-      "languages": ["CSS", "JavaScript"],
-      "tools": ["Angular"],
+      "languages": [
+        "CSS",
+        "JavaScript"
+      ],
+      "tools": [
+        "Angular"
+      ],
       "responsibles": [
         "Work closely with the CTO",
         "Build many third-party integrations, while ensuring scalability and stability",
@@ -98,10 +127,19 @@
       "role": "FullStack",
       "level": "Midweight",
       "postedAt": "1w ago",
-      "contract": ["Full Time Contract"],
+      "contract": [
+        "Full Time Contract"
+      ],
       "location": "Warsaw",
-      "languages": ["Ruby", "JavaScript", "HTML"],
-      "tools": ["Sass", "Angular"],
+      "languages": [
+        "Ruby",
+        "JavaScript",
+        "HTML"
+      ],
+      "tools": [
+        "Sass",
+        "Angular"
+      ],
       "responsibles": [
         "Work closely with the CTO",
         "Build many third-party integrations, while ensuring scalability and stability",
@@ -120,10 +158,16 @@
       "role": "Backend",
       "level": "Junior",
       "postedAt": "2w ago",
-      "contract": ["Full Time Contract"],
+      "contract": [
+        "Full Time Contract"
+      ],
       "location": "Warsaw",
-      "languages": ["Ruby"],
-      "tools": ["RoR"],
+      "languages": [
+        "Ruby"
+      ],
+      "tools": [
+        "RoR"
+      ],
       "responsibles": [
         "Work closely with the CTO",
         "Build many third-party integrations, while ensuring scalability and stability",
@@ -142,10 +186,19 @@
       "role": "Frontend",
       "level": "Junior",
       "postedAt": "2w ago",
-      "contract": ["B2B", "Full Time Contract"],
+      "contract": [
+        "B2B",
+        "Full Time Contract"
+      ],
       "location": "Full Remote",
-      "languages": ["HTML", "JavaScript"],
-      "tools": ["Sass","ReactJs"],
+      "languages": [
+        "HTML",
+        "JavaScript"
+      ],
+      "tools": [
+        "Sass",
+        "ReactJs"
+      ],
       "responsibles": [
         "Work closely with the CTO",
         "Build many third-party integrations, while ensuring scalability and stability",
@@ -164,10 +217,17 @@
       "role": "Frontend",
       "level": "Junior",
       "postedAt": "2w ago",
-      "contract": ["Full Time Contract"],
+      "contract": [
+        "Full Time Contract"
+      ],
       "location": "Wroclaw",
-      "languages": ["JavaScript"],
-      "tools": ["Vue", "Sass"],
+      "languages": [
+        "JavaScript"
+      ],
+      "tools": [
+        "Vue",
+        "Sass"
+      ],
       "responsibles": [
         "Work closely with the CTO",
         "Build many third-party integrations, while ensuring scalability and stability",
@@ -186,10 +246,18 @@
       "role": "Fullstack",
       "level": "Midweight",
       "postedAt": "3w ago",
-      "contract": ["Full Time Contract"],
+      "contract": [
+        "Full Time Contract"
+      ],
       "location": "Warsaw",
-      "languages": ["JavaScript", "Java"],
-      "tools": ["Spring Boot","ReactJs"],
+      "languages": [
+        "JavaScript",
+        "Java"
+      ],
+      "tools": [
+        "Spring Boot",
+        "ReactJs"
+      ],
       "responsibles": [
         "Work closely with the CTO",
         "Build many third-party integrations, while ensuring scalability and stability",
@@ -208,10 +276,17 @@
       "role": "Frontend",
       "level": "Junior",
       "postedAt": "1mo ago",
-      "contract": ["Part Time Contract"],
+      "contract": [
+        "Part Time Contract"
+      ],
       "location": "Warsaw",
-      "languages": ["JavaScript"],
-      "tools": ["React", "Sass"],
+      "languages": [
+        "JavaScript"
+      ],
+      "tools": [
+        "React",
+        "Sass"
+      ],
       "responsibles": [
         "Work closely with the CTO",
         "Build many third-party integrations, while ensuring scalability and stability",
@@ -220,6 +295,6 @@
       ],
       "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     }
+    
   ]
 }
-

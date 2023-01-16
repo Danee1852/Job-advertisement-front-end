@@ -25,6 +25,9 @@ export default function JobList({listOfJobs}) {
     // },[])
 
     //console.log(listOfJobs)
+
+    
+
     const jobElements = listOfJobs && listOfJobs.map(job => { 
 
         return (
@@ -66,7 +69,13 @@ export default function JobList({listOfJobs}) {
     return (
         <div>
             <Navbar />
+            
             <div className="jobBoard">
+                <Link to="/addNewJob">
+                    <div>
+                        <button className ="addNewJobButton" >Add new Job Offer</button>
+                    </div>
+                </Link>
                {jobElements}
             </div>
         </div>

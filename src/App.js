@@ -5,6 +5,7 @@ import SignUpForm from "./components/SignUpForm/SignUpForm"
 import SignInForm from "./components/SignInForm/SignInForm"
 import JobList from "./components/JobList/JobList"
 import JobDetails from "./components/JobDetails/JobDetails"
+import AddJob from "./components/AddJob/AddJob"
 
 export default function App() {
   
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/" element={<MainCard listOfJobs={listOfJobs}/>} />
           <Route path="signin" element={<SignInForm />} />
           <Route path="signup" element={<SignUpForm />} />
+          <Route path="addNewJob" element={<AddJob lengthOfJobsList = {listOfJobs.length}/>} />
       </Routes>
        
     </div>
