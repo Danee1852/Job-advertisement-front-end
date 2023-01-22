@@ -16,7 +16,12 @@ It is a front-end part of my main project which I'm still developing. It is a jo
                         </tr>
                         <tr>
                           <td>• Create login form</td>
-                          <td>• Add possibility to add a new job</td>
+                          <td>• Add possibility to add a new job
+                          </br>
+                          - Add the ability to add/remove dynamic input fields 
+                          </br>
+                          - Add automatic creation the date of post Job, with saving into JSON Server 
+                          </td>
                         </tr>
     <tr>
                           <td>• Create register form</td>
