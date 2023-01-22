@@ -1,0 +1,105 @@
+
+.addJobContainer{
+    background: var(--main);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addJobWrapper {
+    background-color: white;
+    min-width: 600px;
+    min-height: 900px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.addJobTitle {
+    color: var(--main);
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+}
+
+.checkboxWrapper,
+.ratingWrapper,
+.companyWrapper,
+.logoWrapper,
+.positionWrapper,
+.roleWrapper,
+.lvlWrapper,
+.postedatWrapper,
+.contractWrapper,
+.locationWrapper,
+.languagesWrapper,
+.toolsWrapper,
+.responsiblesWrapper,
+.descriptionWrapper{
+    margin: 20px 0px 20px 0px;
+    color: #6a646a;
+}
+
+.checkboxLabel,
+.ratingLabel,
+.companyLabel,
+.logoLabel,
+.positionLabel,
+.roleLabel,
+.lvlLabel,
+.postedatLabel,
+.contractLabel,
+.locationLabel,
+.languageLabel,
+.toolsLabel,
+.responsiblesLabel,
+.descriptionLabel{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.checkboxInput{
+    height: 20px;
+    width: 20px;
+    margin-left: 20px; 
+}
+
+.textInput{
+    height: 20px;
+    font-size: 18px;
+    outline: none;
+    width: 250px;
+    border-top-style: none;
+    border-right-style:none;
+    border-left-style: none;
+    border-bottom-style: 1px solid black;
+    margin-left: 20px;
+}
+
+.addJobButton{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 60px;
+    background: var(--main);
+    box-shadow: rgba(0,0,0,0.3) 0px 19px 38px,
+        rgba(0,0,0,0.22) 0px 15px 12px;
+    margin: auto;
+    outline: none;
+    border: none;
+    transition: all 0.1s;
+}
+
+.addJobButton:hover {
+    background-color: #9cb3f9d7;
+    color: black;
+}
+
+.contractTypeWrapper {
+    display: flex;
+    
+}
+
