@@ -17,11 +17,11 @@ export default function JobAdd({ lengthOfJobsList }) {
         role: "",
         level: "",
         postedAt: "",
-        contract: [{ contractName: "" }, { contractName: "" }],
+        contract: [{ contractName: "" }],
         location: "",
-        languages: [],
-        tools: [],
-        responsibles: [],
+        languages: [{ languageName: "" }],
+        tools: [{ toolName: "" }],
+        responsibles: [{ responsible: "" }],
         description: ""
 
     })
@@ -72,6 +72,17 @@ export default function JobAdd({ lengthOfJobsList }) {
         postData()
     }
 
+
+
+    const handleContractChange = (e, index) => {
+        const { name, value } = e.target
+        const contractList = [...addJobData.contract]
+        contractList[index][name] = value
+        setAddJobData((prevJobData) => {
+            return { ...prevJobData, contract: contractList }
+        })
+    }
+
     const handleContractAdd = () => {
         setAddJobData((prevJobData) => {
             return { ...prevJobData, contract: [...prevJobData.contract, { contractName: "" }] }
@@ -86,14 +97,75 @@ export default function JobAdd({ lengthOfJobsList }) {
         })
     }
 
-    const handleContractChange = (e, index) => {
+    const handleLanguageChange = (e, index) => {
         const { name, value } = e.target
-        const contractList = [...addJobData.contract]
-        contractList[index][name] = value
+        const languageList = [...addJobData.languages]
+        languageList[index][name] = value
         setAddJobData((prevJobData) => {
-            return { ...prevJobData, name: value }
+            return { ...prevJobData, languages: languageList }
         })
     }
+
+    const handleLanguageAdd = () => {
+        setAddJobData((prevJobData) => {
+            return { ...prevJobData, languages: [...prevJobData.languages, { languageName: "" }] }
+        })
+    }
+
+    const handleLanguageRemove = (index) => {
+        const languageList = [...addJobData.languages]
+        languageList.splice(index, 1)
+        setAddJobData((prevJobData) => {
+            return { ...prevJobData, languages: languageList }
+        })
+    }
+
+    const handleToolChange = (e, index) => {
+        const { name, value } = e.target
+        const toolList = [...addJobData.tools]
+        toolList[index][name] = value
+        setAddJobData((prevJobData) => {
+            return { ...prevJobData, tools: toolList }
+        })
+    }
+
+    const handleToolAdd = () => {
+        setAddJobData((prevJobData) => {
+            return { ...prevJobData, tools: [...prevJobData.tools, { toolName: "" }] }
+        })
+    }
+
+    const handleToolRemove = (index) => {
+        const toolList = [...addJobData.tools]
+        toolList.splice(index, 1)
+        setAddJobData((prevJobData) => {
+            return { ...prevJobData, tools: toolList }
+        })
+    }
+
+    const handleResponsibleChange = (e, index) => {
+        const {name, value} = e.target
+        const responsibleList = [...addJobData.responsibles]
+        responsibleList[index][name] = value
+        setAddJobData((prevJobData) => {
+            return {...prevJobData, responsibles: responsibleList}
+        })
+    }
+
+    const handleResponsibleAdd = () => {
+        setAddJobData((prevJobData) => {
+            return {...prevJobData, responsibles: [...prevJobData.responsibles, {responsible: ""}]}
+        })
+    }
+
+    const handleResponsibleRemove = (index) => {
+        const responsibleList = [...addJobData.responsibles]
+        responsibleList.splice(index, 1)
+        setAddJobData((prevJobData) => {
+            return {...prevJobData, responsibles: responsibleList}
+        }) 
+    }
+
 
 
     const postData = async () => {
@@ -117,76 +189,91 @@ export default function JobAdd({ lengthOfJobsList }) {
                 <div className="addJobTitle">
                     <h2>Add new Job</h2>
                 </div>
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} className="form">
                     <div className="checkboxWrapper">
-                        <label className="checkboxLabel">
-                            Active/Unactive:
-                        </label>
+                        <div>
+                            <label className="label">
+                                Active/Unactive:
+                            </label>
+                        </div>
                         <input className="checkboxInput" type="checkbox" name="isactive" checked={addJobData.isactive} onChange={handleCheckboxChange} />
+                    </div>
+                    <div className="positionWrapper">
+                        <div>
+                            <label className="label">
+                                Position name:
+                            </label>
+
+                        </div>
+                        <input className="textInput" type="text" name="position" value={addJobData.position} onChange={handleChange} />
                     </div>
 
                     <div className="ratingWrapper">
-                        <label className="ratingLabel">
-                            Rating:
-                        </label>
+                        <div>
+                            <label className="label">
+                                Rating:
+                            </label>
+                        </div>
                         <input className="textInput" type="number" name="rating" min="1" max="6" value={addJobData.rating} onChange={handleChange} />
 
                     </div>
 
                     <div className="companyWrapper">
-                        <label className="companyLabel">
-                            Company name:
-                        </label>
+                        <div>
+                            <label className="label">
+                                Company name:
+                            </label>
+
+                        </div>
                         <input className="textInput" type="text" name="company" value={addJobData.company} onChange={handleChange} />
 
                     </div>
 
                     <div className="logoWrapper">
-                        <label className="logoLabel">
-                            Logo:
-                        </label>
+                        <div>
+                            <label className="label">
+                                Logo:
+                            </label>
+
+                        </div>
                         <input className="textInput" type="text" name="logo" value={addJobData.logo} onChange={handleChange} />
                     </div>
 
-                    <div className="positionWrapper">
-                        <label className="positionLabel">
-                            Position name:
-                        </label>
-                        <input className="textInput" type="text" name="position" value={addJobData.position} onChange={handleChange} />
-                    </div>
 
                     <div className="roleWrapper">
-                        <label className="roleLabel">
-                            Position role:
-                        </label>
+                        <div>
+                            <label className="label">
+                                Position role:
+                            </label>
+
+                        </div>
                         <input className="textInput" type="text" name="role" value={addJobData.role} onChange={handleChange} />
                     </div>
 
-                    <div className="lvlWrapper">
-                        <label className="lvlLabel">
-                            Position level:
-                        </label>
-                        <select name="level" value={addJobData.level} onChange={handleChange}>
+                    <div className="ratingWrapper">
+                        <div>
+                            <label className="label">
+                                Position level:
+                            </label>
+
+                        </div>
+                        <select className="selectInput" name="level" value={addJobData.level} onChange={handleChange}>
                             <option value="Intern">Intern</option>
                             <option value="Junior">Junior</option>
-                            <option value="Midweight">Coconut</option>
+                            <option value="Midweight">Midweight</option>
                             <option value="Senior">Senior</option>
                         </select>
                     </div>
 
-                    <div className="postedatWrapper">
-                        <label className="postedatLabel">
-                            PostedAt:
-                            <input className="textInput" type="text" name="postedAt" value={addJobData.postedAt} onChange={handleChange} />
-                        </label>
-                    </div>
-
                     <div className="contractWrapper">
-                        <label className="contractLabel">
-                            Contract type:
-                        </label>
+                        <div>
+                            <label className="label">
+                                Contract type:
+                            </label>
+
+                        </div>
                         {addJobData.contract.map((contr, index) => (
-                            <div className = "contractTypeWrapper" key={index}>
+                            <div className="dynamicFieldsWrapper" key={index}>
                                 <div>
                                     <input
                                         className="textInput"
@@ -204,7 +291,7 @@ export default function JobAdd({ lengthOfJobsList }) {
                                 <div>
                                     {addJobData.contract.length > 1 && (
                                         <IconButton onClick={() => handleContractRemove(index)} >
-                                            <DeleteIcon />  
+                                            <DeleteIcon />
                                         </IconButton>)
                                     }
                                 </div>
@@ -213,39 +300,124 @@ export default function JobAdd({ lengthOfJobsList }) {
 
                     </div>
 
-                    <div className="locationWrapper">
-                        <label className="locationLabel">
-                            Job location:
-                        </label>
+                    <div className="ratingWrapper">
+                        <div>
+                            <label className="label">
+                                Job location:
+                            </label>
+
+                        </div>
                         <input className="textInput" type="text" name="location" value={addJobData.location} onChange={handleChange} />
                     </div>
 
-                    <div className="languagesWrapper">
-                        <label className="languageLabel">
-                            Languages required:
-                            <input className="textInput" type="text" name="languages" value={addJobData.languages} onChange={handleChange} />
-                        </label>
+                    <div className="ratingWrapper">
+                        <div>
+                            <label className="label">
+                                Languages required:
+                            </label>
+
+                        </div>
+                        {addJobData.languages.map((language, index) => (
+                            <div className="dynamicFieldsWrapper" key={index}>
+                                <div>
+                                    <input
+                                        className="textInput"
+                                        type="text"
+                                        name="languageName"
+                                        value={language.languageName}
+                                        onChange={(e) => handleLanguageChange(e, index)}
+                                    />
+                                    {addJobData.languages.length - 1 === index && (
+                                        <IconButton onClick={handleLanguageAdd}>
+                                            <AddIcon />
+                                        </IconButton>)
+                                    }
+                                </div>
+                                <div>
+                                    {addJobData.languages.length > 1 && (
+                                        <IconButton onClick={() => handleLanguageRemove(index)} >
+                                            <DeleteIcon />
+                                        </IconButton>)
+                                    }
+                                </div>
+                            </div>
+                        ))}
                     </div>
 
-                    <div className="toolsWrapper">
-                        <label className="toolsLabel">
-                            Tools required:
-                            <input className="textInput" type="text" name="tools" value={addJobData.tools} onChange={handleChange} />
-                        </label>
+                    <div className="ratingWrapper">
+                        <div>
+                            <label className="label">
+                                Tools required:
+                            </label>
+
+                        </div>
+
+                        {addJobData.tools.map((tool, index) => (
+                            <div className="dynamicFieldsWrapper" key={index}>
+                                <div>
+                                    <input
+                                        className="textInput"
+                                        type="text"
+                                        name="toolName"
+                                        value={tool.toolName}
+                                        onChange={(e) => handleToolChange(e, index)}
+                                    />
+                                    {addJobData.tools.length - 1 === index && (
+                                        <IconButton onClick={handleToolAdd}>
+                                            <AddIcon />
+                                        </IconButton>)
+                                    }
+                                </div>
+                                <div>
+                                    {addJobData.tools.length > 1 && (
+                                        <IconButton onClick={() => handleToolRemove(index)} >
+                                            <DeleteIcon />
+                                        </IconButton>)
+                                    }
+                                </div>
+                            </div>
+                        ))}
                     </div>
 
-                    <div className="responsiblesWrapper">
-                        <label className="responsiblesLabel">
-                            Responsibles:
-                            <input className="textInput" type="text" name="responsibles" value={addJobData.responsibles} onChange={handleChange} multiple />
-                        </label>
+                    <div className="ratingWrapper">
+                        <div>
+                            <label className="label">
+                                Responsibles:
+                            </label>
+
+                        </div>
+                        {addJobData.responsibles.map((res, index) => (
+                            <div className="dynamicFieldsWrapper" key={index}>
+                                <div>
+                                    <input
+                                        className="textInput"
+                                        type="text"
+                                        name="responsible"
+                                        value={res.responsible}
+                                        onChange={(e) => handleResponsibleChange(e, index)}
+                                    />
+                                    {addJobData.responsibles.length - 1 === index && (
+                                        <IconButton onClick={handleResponsibleAdd}>
+                                            <AddIcon />
+                                        </IconButton>)
+                                    }
+                                </div>
+                                <div>
+                                    {addJobData.responsibles.length > 1 && (
+                                        <IconButton onClick={() => handleResponsibleRemove(index)} >
+                                            <DeleteIcon />
+                                        </IconButton>)
+                                    }
+                                </div>
+                            </div>
+                        ))}
                     </div>
 
-                    <div className="descriptionWrapper">
-                        <label className="descriptionLabel">
+                    <div className="textAreaWrapper">
+                        <label className="label">
                             Description:
-                            <textarea className="textInput" name="description" value={addJobData.description} onChange={handleChange} />
                         </label>
+                        <textarea className="textAreaInput" name="description" value={addJobData.description} onChange={handleChange} />
                     </div>
                     <button className="addJobButton">Add job</button>
                 </form>

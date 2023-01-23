@@ -44,20 +44,20 @@ export default function JobList({listOfJobs}) {
                     <div className="companyDetails">
                        <span> {job.location} ‣ </span>
                        <span> {job.postedAt} ‣ </span>
-                        {job.contract.map((contractName) => {
+                        {job.contract.map((contr, index) => {
                             
                         return (   
-                                 <span key={contractName}>{contractName} </span> 
+                                 <span key={index}>{contr.contractName} </span> 
                         )
                        })}
                     
                     </div>
                 </div>
                 <div className="jobTechStack">
-                    {job.languages.map((language)=> {
+                    {job.languages.map((language, index)=> {
                         return (
                             
-                                <span key= {language}className="language_span">{language}</span>
+                                <span key= {index}className="language_span">{language.languageName}</span>
                             
                         )
                     })}

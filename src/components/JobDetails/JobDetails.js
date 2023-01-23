@@ -32,9 +32,9 @@ export default function JobDetails({listOfJobs}) {
                     <div className="mainInfoContainer">
                          <img className = "jobDetailIcons" src = {contractPicture} alt="location"/>
                          <div className="mainInfocontractContainer">
-                            {job.contract.map((contractName) => {
+                            {job.contract.map((contr, index) => {
                                 return (   
-                                        <p className="mainInfoTextContract" key={contractName}>{contractName} </p> 
+                                        <p className="mainInfoTextContract" key={index}>{contr.contractName} </p> 
                                 )
                             })}
                            </div>
@@ -54,9 +54,9 @@ export default function JobDetails({listOfJobs}) {
                 </div>
                 <div className="jobDetailResponsible">
                     <h3>You would be responsible for:</h3> 
-                    {job.responsibles.map((res)=> {
+                    {job.responsibles.map((res,index)=> {
                         return(
-                            <li>{res}</li>
+                            <li key={index}>{res.responsible}</li>
                         )
                     })}
                 </div>
@@ -65,17 +65,17 @@ export default function JobDetails({listOfJobs}) {
                     <div className="techstackWrapper">
                         <div>
                             <p>Languages: </p>
-                            {job.languages.map((language)=> {
+                            {job.languages.map((language, index)=> {
                                 return (
-                                    <li>{language}</li>
+                                    <li key = {index}>{language.languageName}</li>
                                 )
                             })}
                         </div>
                         <div>
                         {job.tools.length > 0 && <p>Tools: </p>}
-                        {job.tools.map((tool)=> {
+                        {job.tools.map((tool,index)=> {
                             return (
-                                <li>{tool}</li>
+                                <li key={index}>{tool.toolName}</li>
                             )
                         })}
                         </div>

@@ -7,10 +7,16 @@
     justify-content: center;
     align-items: center;
 }
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    
+}
 
 .addJobWrapper {
     background-color: white;
-    min-width: 600px;
+    min-width: 500px;
     min-height: 900px;
     padding: 30px;
     box-sizing: border-box;
@@ -40,21 +46,16 @@
     margin: 20px 0px 20px 0px;
     color: #6a646a;
 }
+.textAreaWrapper {
+    color: #6a646a;
+    display: flex;
+    flex-direction: column;
+}
 
-.checkboxLabel,
-.ratingLabel,
-.companyLabel,
-.logoLabel,
-.positionLabel,
-.roleLabel,
-.lvlLabel,
-.postedatLabel,
-.contractLabel,
-.locationLabel,
-.languageLabel,
-.toolsLabel,
-.responsiblesLabel,
-.descriptionLabel{
+.label{
+    
+    display:inline-block;
+    width:180px;
     font-size: 18px;
     letter-spacing: 1px;
 }
@@ -62,19 +63,41 @@
 .checkboxInput{
     height: 20px;
     width: 20px;
-    margin-left: 20px; 
+    margin-left: 20px;
+    margin-top: 10px; 
 }
 
 .textInput{
+    margin-top: 10px;
     height: 20px;
     font-size: 18px;
     outline: none;
-    width: 250px;
+    width: 300px;
     border-top-style: none;
     border-right-style:none;
     border-left-style: none;
     border-bottom-style: 1px solid black;
     margin-left: 20px;
+}
+
+.textAreaInput{
+    height: 150px;
+    font-size: 18px;
+    outline: none;
+    width: 100%;
+    background-color: #ecececf0;
+    box-sizing: border-box;
+    border: 2px solid rgba(216, 213, 213, 0.857);
+    resize: none;
+    margin: 20px 0px 30px 0px;
+}
+.selectInput {
+    height: 30px;
+    font-size: 18px;
+    width: 300px;
+    border-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .addJobButton{
@@ -98,8 +121,10 @@
     color: black;
 }
 
-.contractTypeWrapper {
+.dynamicFieldsWrapper {
     display: flex;
     
 }
+
+
 
