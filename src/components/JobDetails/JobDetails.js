@@ -14,6 +14,29 @@ export default function JobDetails({listOfJobs}) {
     
     const jobDetail = jobs && jobs.filter(job => job.id === numericId).map((job) => {
         
+        const checkTheTime = (jobPostDateProp) => {
+
+            const currentDate = new Date()
+            const jobPostDate = new Date(jobPostDateProp)
+            const timeDifferenceInDays = (currentDate - jobPostDate)/ 86400000
+
+            if (timeDifferenceInDays < 1) {
+                return "Today"
+              } else if (timeDifferenceInDays === 1) {
+                return "One day ago"
+              } else if (timeDifferenceInDays < 7) {
+                return Math.floor(timeDifferenceInDays) + " days ago"
+              } else if (timeDifferenceInDays === 7) {
+                return "One week ago"
+              } else if (timeDifferenceInDays < 30.4) {
+                return Math.floor(timeDifferenceInDays / 7) + "weeks ago"
+              } else if (timeDifferenceInDays === 30.4) {
+                return "One month ago"
+              } else if (timeDifferenceInDays > 30.4) {
+                return Math.floor(timeDifferenceInDays / 30.4) + " months ago"
+              }
+        }
+
         return (
             
             <div className="jobDetailWrapper">
@@ -45,7 +68,7 @@ export default function JobDetails({listOfJobs}) {
                     </div>
                     <div className="mainInfoContainer">
                         <img className = "jobDetailIcons" src = {clockPicture} alt="location"/>
-                        <p className="mainInfoText">{job.postedAt}</p>
+                        <p className="mainInfoText">{checkTheTime(job.postedAt)}</p>
                         </div>
                 </div>
                 <div className="jobDetailDescription">
