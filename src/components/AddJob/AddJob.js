@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { redirect } from "react-router-dom"
 import "./AddJob.css"
 import { IconButton } from "@mui/material"
@@ -26,8 +26,6 @@ export default function JobAdd({ lengthOfJobsList }) {
 
     })
 
-    console.log(addJobData.contract)
-
 
     // const[id,setId]=useState(0)
     // const[isactive,setIsactive]=useState(false)
@@ -45,12 +43,39 @@ export default function JobAdd({ lengthOfJobsList }) {
     // const[responsibles,setResponsibles]=useState([])
     // const[description,setDescription]=useState("")
 
-    const setJobId = (lengthOfJobsList) => {
-        setAddJobData({
-            ...addJobData,
-            id: parseInt(lengthOfJobsList) + 1
+    
+    // It doesent work, because of problem with async setState
+
+   /*  const setPostDate = () => {
+       //const currentDate = new Date().toISOString()
+       setAddJobData({
+           ...addJobData, 
+           postedAt: new Date().toISOString()
         })
-    }
+    } */
+    
+    /* const setJobIdAndDate = (lengthOfJobsList) => {
+        setAddJobData((prevJobData) => {
+            return {
+            ...prevJobData,
+            postedAt: "12.12.12",
+            id: parseInt(lengthOfJobsList) + 1}
+        })
+    } */
+
+    useEffect((lengthOfJobsList) => {
+        const currentDate = new Date().toISOString()
+
+        setAddJobData((prevJobData) => {
+            return {
+                ...prevJobData,
+                id: parseInt(lengthOfJobsList) + 1,
+                postedAt: currentDate
+            }
+        })
+
+    }, [])
+
 
     const handleChange = (event) => {
         setAddJobData({
@@ -68,8 +93,7 @@ export default function JobAdd({ lengthOfJobsList }) {
 
     const handleSubmit = (event) => {
         event.preventDefault()
-        setJobId()
-        postData()
+        postData() 
     }
 
 
@@ -176,7 +200,7 @@ export default function JobAdd({ lengthOfJobsList }) {
                 body: JSON.stringify(addJobData)
             })
             alert("Job saved")
-            redirect('jobList')
+            // redirect('jobList')
         } catch (err) {
             console.log(err)
         }

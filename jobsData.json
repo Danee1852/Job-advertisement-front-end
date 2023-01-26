@@ -11,21 +11,39 @@
       "level": "Senior",
       "postedAt": "1d ago",
       "contract": [
-        {"contractName": "B2B"},
-        {"contractName": "Full Time Contract"}
+        {
+          "contractName": "B2B"
+        },
+        {
+          "contractName": "Full Time Contract"
+        }
       ],
       "location": "Warsaw",
       "languages": [
-        {"languageName": "HTML"},
-        {"languageName": "CSS"},
-        {"languageName": "JavaScript"}
+        {
+          "languageName": "HTML"
+        },
+        {
+          "languageName": "CSS"
+        },
+        {
+          "languageName": "JavaScript"
+        }
       ],
       "tools": [],
       "responsibles": [
-        {"responsible": "Work closely with the CTO"},
-        {"responsible": "Build many third-party integrations, while ensuring scalability and stability"},
-        {"responsible": "Real product ownership, your work will directly shape the company"},
-        {"responsible": "You will be responsible for complex business logic"}
+        {
+          "responsible": "Work closely with the CTO"
+        },
+        {
+          "responsible": "Build many third-party integrations, while ensuring scalability and stability"
+        },
+        {
+          "responsible": "Real product ownership, your work will directly shape the company"
+        },
+        {
+          "responsible": "You will be responsible for complex business logic"
+        }
       ],
       "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
@@ -40,21 +58,37 @@
       "level": "Mid",
       "postedAt": "1d ago",
       "contract": [
-        {"contractName": "Part Time Contract"}
+        {
+          "contractName": "Part Time Contract"
+        }
       ],
       "location": "Krakow",
       "languages": [
-        {"languageName": "Python"},
-        {"languageName": "JavaScript"}
+        {
+          "languageName": "Python"
+        },
+        {
+          "languageName": "JavaScript"
+        }
       ],
       "tools": [
-        {"toolName": "ReactJs"}
+        {
+          "toolName": "ReactJs"
+        }
       ],
       "responsibles": [
-        {"responsible": "Work closely with the CTO"},
-        {"responsible": "Build many third-party integrations, while ensuring scalability and stability"},
-        {"responsible": "Real product ownership, your work will directly shape the company"},
-        {"responsible": "You will be responsible for complex business logic"}
+        {
+          "responsible": "Work closely with the CTO"
+        },
+        {
+          "responsible": "Build many third-party integrations, while ensuring scalability and stability"
+        },
+        {
+          "responsible": "Real product ownership, your work will directly shape the company"
+        },
+        {
+          "responsible": "You will be responsible for complex business logic"
+        }
       ],
       "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
@@ -69,21 +103,37 @@
       "level": "Junior",
       "postedAt": "2d ago",
       "contract": [
-        {"contractName": "Part Time Contract"}
+        {
+          "contractName": "Part Time Contract"
+        }
       ],
       "location": "Warsaw",
       "languages": [
-        {"languageName": "JavaScript"}
+        {
+          "languageName": "JavaScript"
+        }
       ],
       "tools": [
-        {"toolName": "ReactJs"},
-        {"toolName": "Sass"}
+        {
+          "toolName": "ReactJs"
+        },
+        {
+          "toolName": "Sass"
+        }
       ],
       "responsibles": [
-        {"responsible": "Work closely with the CTO"},
-        {"responsible": "Build many third-party integrations, while ensuring scalability and stability"},
-        {"responsible": "Real product ownership, your work will directly shape the company"},
-        {"responsible": "You will be responsible for complex business logic"}
+        {
+          "responsible": "Work closely with the CTO"
+        },
+        {
+          "responsible": "Build many third-party integrations, while ensuring scalability and stability"
+        },
+        {
+          "responsible": "Real product ownership, your work will directly shape the company"
+        },
+        {
+          "responsible": "You will be responsible for complex business logic"
+        }
       ],
       "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
@@ -98,22 +148,40 @@
       "level": "Junior",
       "postedAt": "5d ago",
       "contract": [
-        {"contractName": "B2B"},
-        {"contractName": "Full Time Contract"}
+        {
+          "contractName": "B2B"
+        },
+        {
+          "contractName": "Full Time Contract"
+        }
       ],
       "location": "Poznan",
       "languages": [
-        {"languageName": "CSS"},
-        {"languageName": "JavaScript"}
+        {
+          "languageName": "CSS"
+        },
+        {
+          "languageName": "JavaScript"
+        }
       ],
       "tools": [
-        {"toolName": "Angular"}
+        {
+          "toolName": "Angular"
+        }
       ],
       "responsibles": [
-        {"responsible": "Work closely with the CTO"},
-        {"responsible": "Build many third-party integrations, while ensuring scalability and stability"},
-        {"responsible": "Real product ownership, your work will directly shape the company"},
-        {"responsible": "You will be responsible for complex business logic"}
+        {
+          "responsible": "Work closely with the CTO"
+        },
+        {
+          "responsible": "Build many third-party integrations, while ensuring scalability and stability"
+        },
+        {
+          "responsible": "Real product ownership, your work will directly shape the company"
+        },
+        {
+          "responsible": "You will be responsible for complex business logic"
+        }
       ],
       "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
@@ -128,23 +196,43 @@
       "level": "Midweight",
       "postedAt": "1w ago",
       "contract": [
-        {"contractName": "Full Time Contract"}
+        {
+          "contractName": "Full Time Contract"
+        }
       ],
       "location": "Warsaw",
       "languages": [
-        {"languageName": "Ruby"},
-        {"languageName": "JavaScript"},
-        {"languageName": "HTML"}
+        {
+          "languageName": "Ruby"
+        },
+        {
+          "languageName": "JavaScript"
+        },
+        {
+          "languageName": "HTML"
+        }
       ],
       "tools": [
-        {"toolName": "Sass"},
-        {"toolName": "Angular"}
+        {
+          "toolName": "Sass"
+        },
+        {
+          "toolName": "Angular"
+        }
       ],
       "responsibles": [
-        {"responsible": "Work closely with the CTO"},
-        {"responsible": "Build many third-party integrations, while ensuring scalability and stability"},
-        {"responsible": "Real product ownership, your work will directly shape the company"},
-        {"responsible": "You will be responsible for complex business logic"}
+        {
+          "responsible": "Work closely with the CTO"
+        },
+        {
+          "responsible": "Build many third-party integrations, while ensuring scalability and stability"
+        },
+        {
+          "responsible": "Real product ownership, your work will directly shape the company"
+        },
+        {
+          "responsible": "You will be responsible for complex business logic"
+        }
       ],
       "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
@@ -159,20 +247,34 @@
       "level": "Junior",
       "postedAt": "2w ago",
       "contract": [
-        {"contractName": "Full Time Contract"}
+        {
+          "contractName": "Full Time Contract"
+        }
       ],
       "location": "Warsaw",
       "languages": [
-        {"languageName": "Ruby"}
+        {
+          "languageName": "Ruby"
+        }
       ],
       "tools": [
-        {"toolName": "RoR"}
+        {
+          "toolName": "RoR"
+        }
       ],
       "responsibles": [
-        {"responsible": "Work closely with the CTO"},
-        {"responsible": "Build many third-party integrations, while ensuring scalability and stability"},
-        {"responsible": "Real product ownership, your work will directly shape the company"},
-        {"responsible": "You will be responsible for complex business logic"}
+        {
+          "responsible": "Work closely with the CTO"
+        },
+        {
+          "responsible": "Build many third-party integrations, while ensuring scalability and stability"
+        },
+        {
+          "responsible": "Real product ownership, your work will directly shape the company"
+        },
+        {
+          "responsible": "You will be responsible for complex business logic"
+        }
       ],
       "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
@@ -187,23 +289,43 @@
       "level": "Junior",
       "postedAt": "2w ago",
       "contract": [
-        {"contractName": "B2B"},
-        {"contractName": "Full Time Contract"}
+        {
+          "contractName": "B2B"
+        },
+        {
+          "contractName": "Full Time Contract"
+        }
       ],
       "location": "Full Remote",
       "languages": [
-        {"languageName": "HTML"},
-        {"languageName": "JavaScript"}
+        {
+          "languageName": "HTML"
+        },
+        {
+          "languageName": "JavaScript"
+        }
       ],
       "tools": [
-        {"toolName": "Sass"},
-        {"toolName": "ReactJs"}
+        {
+          "toolName": "Sass"
+        },
+        {
+          "toolName": "ReactJs"
+        }
       ],
       "responsibles": [
-        {"responsible": "Work closely with the CTO"},
-        {"responsible": "Build many third-party integrations, while ensuring scalability and stability"},
-        {"responsible": "Real product ownership, your work will directly shape the company"},
-        {"responsible": "You will be responsible for complex business logic"}
+        {
+          "responsible": "Work closely with the CTO"
+        },
+        {
+          "responsible": "Build many third-party integrations, while ensuring scalability and stability"
+        },
+        {
+          "responsible": "Real product ownership, your work will directly shape the company"
+        },
+        {
+          "responsible": "You will be responsible for complex business logic"
+        }
       ],
       "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
@@ -217,22 +339,38 @@
       "role": "Frontend",
       "level": "Junior",
       "postedAt": "2w ago",
-      "contract": [ 
-         {"contractName": "Full Time Contract"}
+      "contract": [
+        {
+          "contractName": "Full Time Contract"
+        }
       ],
       "location": "Wroclaw",
       "languages": [
-        {"languageName": "JavaScript"}
+        {
+          "languageName": "JavaScript"
+        }
       ],
       "tools": [
-        {"toolName": "Vue"},
-        {"toolName": "Sass"}
+        {
+          "toolName": "Vue"
+        },
+        {
+          "toolName": "Sass"
+        }
       ],
       "responsibles": [
-        {"responsible": "Work closely with the CTO"},
-        {"responsible": "Build many third-party integrations, while ensuring scalability and stability"},
-        {"responsible": "Real product ownership, your work will directly shape the company"},
-        {"responsible": "You will be responsible for complex business logic"}
+        {
+          "responsible": "Work closely with the CTO"
+        },
+        {
+          "responsible": "Build many third-party integrations, while ensuring scalability and stability"
+        },
+        {
+          "responsible": "Real product ownership, your work will directly shape the company"
+        },
+        {
+          "responsible": "You will be responsible for complex business logic"
+        }
       ],
       "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
@@ -247,22 +385,40 @@
       "level": "Midweight",
       "postedAt": "3w ago",
       "contract": [
-        {"contractName": "Full Time Contract"}
+        {
+          "contractName": "Full Time Contract"
+        }
       ],
       "location": "Warsaw",
       "languages": [
-        {"languageName": "JavaScript"},
-        {"languageName": "Java"}
+        {
+          "languageName": "JavaScript"
+        },
+        {
+          "languageName": "Java"
+        }
       ],
       "tools": [
-        {"toolName": "Spring Boot"},
-        {"toolName": "ReactJs"}
+        {
+          "toolName": "Spring Boot"
+        },
+        {
+          "toolName": "ReactJs"
+        }
       ],
       "responsibles": [
-        {"responsible": "Work closely with the CTO"},
-        {"responsible": "Build many third-party integrations, while ensuring scalability and stability"},
-        {"responsible": "Real product ownership, your work will directly shape the company"},
-        {"responsible": "You will be responsible for complex business logic"}
+        {
+          "responsible": "Work closely with the CTO"
+        },
+        {
+          "responsible": "Build many third-party integrations, while ensuring scalability and stability"
+        },
+        {
+          "responsible": "Real product ownership, your work will directly shape the company"
+        },
+        {
+          "responsible": "You will be responsible for complex business logic"
+        }
       ],
       "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
     },
@@ -277,23 +433,105 @@
       "level": "Junior",
       "postedAt": "1mo ago",
       "contract": [
-        {"contractName": "Part Time Contract"}
+        {
+          "contractName": "Part Time Contract"
+        }
       ],
       "location": "Warsaw",
       "languages": [
-        {"languageName": "JavaScript"}
+        {
+          "languageName": "JavaScript"
+        }
       ],
       "tools": [
-        {"toolName": "React"},
-        {"toolName": "Sass"}
+        {
+          "toolName": "React"
+        },
+        {
+          "toolName": "Sass"
+        }
       ],
       "responsibles": [
-        {"responsible": "Work closely with the CTO"},
-        {"responsible": "Build many third-party integrations, while ensuring scalability and stability"},
-        {"responsible": "Real product ownership, your work will directly shape the company"},
-        {"responsible": "You will be responsible for complex business logic"}
+        {
+          "responsible": "Work closely with the CTO"
+        },
+        {
+          "responsible": "Build many third-party integrations, while ensuring scalability and stability"
+        },
+        {
+          "responsible": "Real product ownership, your work will directly shape the company"
+        },
+        {
+          "responsible": "You will be responsible for complex business logic"
+        }
       ],
       "description": "We are a technology & consulting company focused on custom software and product development. As a team of experts, we work with technology that makes a difference and has a tangible impact on the world of everyday life, supporting clients business and digital transformation."
+    },
+    {
+      "id": 11,
+      "isactive": true,
+      "rating": "3",
+      "company": "test",
+      "logo": "https://images.unsplash.com/photo-1560622496-c49bec679e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+      "position": "Junior Java dev",
+      "role": "Test",
+      "level": "Junior",
+      "postedAt": "",
+      "contract": [
+        {
+          "contractName": "Test"
+        }
+      ],
+      "location": "test",
+      "languages": [
+        {
+          "languageName": "test"
+        }
+      ],
+      "tools": [
+        {
+          "toolName": "test"
+        }
+      ],
+      "responsibles": [
+        {
+          "responsible": "test"
+        }
+      ],
+      "description": "Test"
+    },
+    {
+      "id": 12,
+      "isactive": true,
+      "rating": "1",
+      "company": "Test",
+      "logo": "Test",
+      "position": "test",
+      "role": "Test",
+      "level": "Junior",
+      "postedAt": "2023-01-26T17:41:29.430Z",
+      "contract": [
+        {
+          "contractName": "Test"
+        }
+      ],
+      "location": "Test",
+      "languages": [
+        {
+          "languageName": "Test"
+        }
+      ],
+      "tools": [
+        {
+          "toolName": "Test"
+        }
+      ],
+      "responsibles": [
+        {
+          "responsible": "Test"
+        }
+      ],
+      "description": "Test"
     }
   ]
 }
