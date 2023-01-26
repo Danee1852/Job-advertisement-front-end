@@ -16,12 +16,7 @@ It is a front-end part of my main project which I'm still developing. It is a jo
                         </tr>
                         <tr>
                           <td>• Create login form</td>
-                          <td>• Add possibility to add a new job
-                          </br>
-                          - Add the ability to add/remove dynamic input fields 
-                          </br>
-                          - Add automatic creation the date of post Job, with saving into JSON Server 
-                          </td>
+                          <td>• Add possibility to apply job  </td>
                         </tr>
     <tr>
                           <td>• Create register form</td>
@@ -29,7 +24,7 @@ It is a front-end part of my main project which I'm still developing. It is a jo
                         </tr>
     <tr>
                           <td>• Create job listing page witch get the data from a JSON object</td>
-                          <td>• Add possibility to apply job </td>
+                          <td></td>
                         </tr>
     <tr>
                           <td>• Add routing </td>
@@ -41,6 +36,14 @@ It is a front-end part of my main project which I'm still developing. It is a jo
                         </tr>
     <tr>
                           <td>• Create job details component </td>
+                          <td> </td>
+                        </tr>
+    <tr>
+                          <td>• Add possibility to add a new job
+                          </br>
+                          - Add the ability to add/remove dynamic input fields 
+                          </br>
+                          - Add automatic creation the date of post Job, with saving into JSON Server </td>
                           <td> </td>
                         </tr>
     </tbody>
