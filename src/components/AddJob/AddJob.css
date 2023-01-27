@@ -100,20 +100,32 @@
     margin-top: 10px;
 }
 
-.addJobButton{
+.formButton{
     display: flex;
     text-transform: uppercase;
     font-size: 18px;
     border-radius: 25px;
     color: white;
     padding: 10px 60px;
-    background: var(--main);
     box-shadow: rgba(0,0,0,0.3) 0px 19px 38px,
         rgba(0,0,0,0.22) 0px 15px 12px;
     margin: auto;
     outline: none;
     border: none;
     transition: all 0.1s;
+}
+
+.addJobButton{
+    background: var(--main);
+}
+
+.cancelButton {
+    background: rgb(243, 66, 66);;
+}
+
+.cancelButton:hover {
+    background-color: #ff8370;
+    color: black;
 }
 
 .addJobButton:hover {
@@ -124,6 +136,9 @@
 .dynamicFieldsWrapper {
     display: flex;
     
+}
+.buttonsWrapper{
+    display: flex;
 }
 
 

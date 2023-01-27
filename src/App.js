@@ -6,6 +6,7 @@ import SignInForm from "./components/SignInForm/SignInForm"
 import JobList from "./components/JobList/JobList"
 import JobDetails from "./components/JobDetails/JobDetails"
 import AddJob from "./components/AddJob/AddJob"
+import checkTheTime from "./utils"
 
 export default function App() {
   
@@ -25,12 +26,14 @@ export default function App() {
         fetchData()
     },[])
 
+    
+
   return (
     
     <div>
       <Routes>          
-          <Route path="jobList" element={<JobList listOfJobs={listOfJobs}/>} />
-          <Route path="jobDetails/:id" element={<JobDetails listOfJobs={listOfJobs}/>} />
+          <Route path="jobList" element={<JobList listOfJobs={listOfJobs} checkTheTime={checkTheTime}/>} />
+          <Route path="jobDetails/:id" element={<JobDetails listOfJobs={listOfJobs} checkTheTime={checkTheTime}/>} />
           <Route path="/" element={<MainCard listOfJobs={listOfJobs}/>} />
           <Route path="signin" element={<SignInForm />} />
           <Route path="signup" element={<SignUpForm />} />

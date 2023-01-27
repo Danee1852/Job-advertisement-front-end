@@ -6,7 +6,7 @@ import contractPicture from "../../images/Paper_Line.svg"
 import levelPicture from "../../images/Level Up_Line.svg"
 import clockPicture from "../../images/24 hours_Line.svg"
 
-export default function JobDetails({listOfJobs}) {
+export default function JobDetails({listOfJobs,checkTheTime}) {
 
     const {id} = useParams();
     const numericId = parseInt(id)
@@ -14,32 +14,10 @@ export default function JobDetails({listOfJobs}) {
     
     const jobDetail = jobs && jobs.filter(job => job.id === numericId).map((job) => {
         
-        const checkTheTime = (jobPostDateProp) => {
-
-            const currentDate = new Date()
-            const jobPostDate = new Date(jobPostDateProp)
-            const timeDifferenceInDays = (currentDate - jobPostDate)/ 86400000
-
-            if (timeDifferenceInDays < 1) {
-                return "Today"
-              } else if (timeDifferenceInDays === 1) {
-                return "One day ago"
-              } else if (timeDifferenceInDays < 7) {
-                return Math.floor(timeDifferenceInDays) + " days ago"
-              } else if (timeDifferenceInDays === 7) {
-                return "One week ago"
-              } else if (timeDifferenceInDays < 30.4) {
-                return Math.floor(timeDifferenceInDays / 7) + "weeks ago"
-              } else if (timeDifferenceInDays === 30.4) {
-                return "One month ago"
-              } else if (timeDifferenceInDays > 30.4) {
-                return Math.floor(timeDifferenceInDays / 30.4) + " months ago"
-              }
-        }
-
+        
         return (
             
-            <div className="jobDetailWrapper">
+            <div key = {job.id} className="jobDetailWrapper">
                 <div className="jobDetailHeader">
                     <img className = "jobCompanyLogo" src = {job.logo} alt="logo"/>
                     <div className="jobDetailHeaderText">

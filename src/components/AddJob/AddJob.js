@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react"
-import { redirect } from "react-router-dom"
 import "./AddJob.css"
 import { IconButton } from "@mui/material"
 import DeleteIcon from '@mui/icons-material/Delete';
 import AddIcon from '@mui/icons-material/Add';
+import {Link} from "react-router-dom"
 
 export default function JobAdd({ lengthOfJobsList }) {
 
-    const [addJobData, setAddJobData] = useState({
+    const initialState = {
         id: 0,
         isactive: false,
         rating: 0,
@@ -24,7 +24,9 @@ export default function JobAdd({ lengthOfJobsList }) {
         responsibles: [{ responsible: "" }],
         description: ""
 
-    })
+    }
+
+    const [addJobData, setAddJobData] = useState(initialState)
 
 
     // const[id,setId]=useState(0)
@@ -65,7 +67,6 @@ export default function JobAdd({ lengthOfJobsList }) {
 
     useEffect((lengthOfJobsList) => {
         const currentDate = new Date().toISOString()
-
         setAddJobData((prevJobData) => {
             return {
                 ...prevJobData,
@@ -93,7 +94,8 @@ export default function JobAdd({ lengthOfJobsList }) {
 
     const handleSubmit = (event) => {
         event.preventDefault()
-        postData() 
+        postData()
+        setAddJobData(initialState)
     }
 
 
@@ -443,7 +445,12 @@ export default function JobAdd({ lengthOfJobsList }) {
                         </label>
                         <textarea className="textAreaInput" name="description" value={addJobData.description} onChange={handleChange} />
                     </div>
-                    <button className="addJobButton">Add job</button>
+                    
+                    <div className="buttonsWrapper">
+                        <button className="formButton addJobButton ">Add job</button>
+                        <Link to="/jobList"><button className="formButton cancelButton">Cancel</button></Link>
+                        
+                        </div>
                 </form>
             </div>
         </div>
