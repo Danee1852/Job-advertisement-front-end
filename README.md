@@ -24,7 +24,11 @@ It is a front-end part of my main project which I'm still developing. It is a jo
                         </tr>
     <tr>
                           <td>• Create job listing page witch get the data from a JSON object</td>
-                          <td></td>
+                          <td>• Add JSON server auth module for servicing: 
+                          </br>
+                              - register user,
+                          </br>
+                              - login user</td>
                         </tr>
     <tr>
                           <td>• Add routing </td>
