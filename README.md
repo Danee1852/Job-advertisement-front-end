@@ -20,10 +20,14 @@ It is a front-end part of my main project which I'm still developing. It is a jo
                         </tr>
     <tr>
                           <td>• Create register form</td>
-                          <td>• Add possibility to edit and detele job </td>
+                          <td>• Add possibility to edit job </td>
                         </tr>
     <tr>
                           <td>• Create job listing page witch get the data from a JSON object</td>
+                          <td>• Add possibility to delete job </td>
+                        </tr>
+    <tr>
+                          <td>• Add routing </td>
                           <td>• Add JSON server auth module for servicing: 
                           </br>
                               - register user,
@@ -31,12 +35,8 @@ It is a front-end part of my main project which I'm still developing. It is a jo
                               - login user</td>
                         </tr>
     <tr>
-                          <td>• Add routing </td>
-                          <td> </td>
-                        </tr>
-    <tr>
                           <td>• Use JSON Server API for storing and providing data </td>
-                          <td> </td>
+                          <td></td>
                         </tr>
     <tr>
                           <td>• Create job details component </td>
