@@ -12,7 +12,16 @@ It is a front-end part of my main project which I'm still developing. It is a jo
   <tbody>
                         <tr>
                           <td>• Create main page and navbar component</td>
-                          <td>• Add custom search jobs</td>
+                          <td>• Add custom search jobs
+                          </br>
+                              - by the name, 
+                          </br>
+                              - by the location,
+                          </br>
+                              - by the position lvl,
+                          </br>
+                              - by the technology
+                          </td>
                         </tr>
                         <tr>
                           <td>• Create login form</td>
