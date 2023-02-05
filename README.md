@@ -12,7 +12,16 @@ It is a front-end part of my main project which I'm still developing. It is a jo
   <tbody>
                         <tr>
                           <td>• Create main page and navbar component</td>
-                          <td>• Add custom search jobs</td>
+                          <td>• Add custom search jobs
+                          </br>
+                              - by the name, 
+                          </br>
+                              - by the location,
+                          </br>
+                              - by the position lvl,
+                          </br>
+                              - by the technology
+                          </td>
                         </tr>
                         <tr>
                           <td>• Create login form</td>
@@ -20,19 +29,23 @@ It is a front-end part of my main project which I'm still developing. It is a jo
                         </tr>
     <tr>
                           <td>• Create register form</td>
-                          <td>• Add possibility to edit and detele job </td>
+                          <td>• Add possibility to edit job </td>
                         </tr>
     <tr>
                           <td>• Create job listing page witch get the data from a JSON object</td>
-                          <td></td>
+                          <td>• Add possibility to delete job </td>
                         </tr>
     <tr>
                           <td>• Add routing </td>
-                          <td> </td>
+                          <td>• Add JSON server auth module for servicing: 
+                          </br>
+                              - register user,
+                          </br>
+                              - login user</td>
                         </tr>
     <tr>
                           <td>• Use JSON Server API for storing and providing data </td>
-                          <td> </td>
+                          <td></td>
                         </tr>
     <tr>
                           <td>• Create job details component </td>
