@@ -3,8 +3,17 @@
 import { Link } from "react-router-dom"
 import "./JobList.css"
 import Navbar from "../Navbar/Navbar"
+import { useState } from "react"
 
 export default function JobList({ listOfJobs, checkTheTime }) {
+
+    const [query, setQuery] = useState("")
+    const searchParam = "position"
+
+    const search = (data) => {
+        return data.filter((item) => 
+        item[searchParam] && item[searchParam].toLowerCase().includes(query.toLowerCase()))
+    }
 
     // Put the state up for sharing data with other components
 
@@ -29,7 +38,7 @@ export default function JobList({ listOfJobs, checkTheTime }) {
 
 
 
-    const jobElements = listOfJobs && listOfJobs.map(job => {
+    const jobElements = listOfJobs && search(listOfJobs).map(job => {
 
 
 
@@ -80,6 +89,14 @@ export default function JobList({ listOfJobs, checkTheTime }) {
                         <button className="addNewJobButton" >Add new Job Offer</button>
                     </div>
                 </Link>
+                <div>
+                    <input
+                        className="search-input"
+                        placeholder="Search by name.."
+                        value={query}
+                        onChange={(e) => setQuery(e.target.value)}
+                        />
+                </div>
                 {jobElements}
             </div>
         </div>
