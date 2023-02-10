@@ -7,13 +7,42 @@ import { useState } from "react"
 
 export default function JobList({ listOfJobs, checkTheTime }) {
 
+
+
     const [query, setQuery] = useState("")
-    const searchParam = "position"
+    
 
     const search = (data) => {
-        return data.filter((item) => 
-        item[searchParam] && item[searchParam].toLowerCase().includes(query.toLowerCase()))
+        const searchParam = "position"
+        return data.filter((item) =>
+            item[searchParam] && item[searchParam].toLowerCase().includes(query.toLowerCase()))
     }
+
+
+
+    const getUniqueLanguages = (data) => {
+
+        const languageNames = data && data.map(job => {
+            if (Array.isArray(job.languages)) {
+                return job.languages.map(language => {
+                    return language.languageName;
+                })
+            }
+            return []
+        })
+        return Array.from(languageNames && languageNames.reduce((acc, val) => {
+            
+            val.forEach(language => language ? acc.add(language): acc)
+            return acc
+        }, new Set())
+        )
+        
+        
+    }
+
+
+    //console.log(getUniqueLanguages(listOfJobs))
+
 
     // Put the state up for sharing data with other components
 
@@ -84,20 +113,35 @@ export default function JobList({ listOfJobs, checkTheTime }) {
             <Navbar />
 
             <div className="jobBoard">
-                <Link to="/addNewJob">
+                <div className="filter">
                     <div>
-                        <button className="addNewJobButton" >Add new Job Offer</button>
-                    </div>
-                </Link>
-                <div>
-                    <input
-                        className="search-input"
-                        placeholder="Search by name.."
-                        value={query}
-                        onChange={(e) => setQuery(e.target.value)}
+                        <input
+                            className="search-input"
+                            placeholder="Search by name.."
+                            value={query}
+                            onChange={(e) => setQuery(e.target.value)}
                         />
+                    </div>
+                    <div>
+                        <select>
+                            {getUniqueLanguages(listOfJobs).map((language, index)=>{
+                                return (
+                                <option key = {index}>{language}</option>
+                                )
+                            })}
+                            
+                            
+                        </select>
+                    </div>
                 </div>
-                {jobElements}
+                <div className="col1">
+                    <Link to="/addNewJob">
+                        <button className="addNewJobButton" >Add new Job Offer</button>
+                    </Link>
+                    {jobElements}
+                </div>
+
+
             </div>
         </div>
     )

@@ -10,12 +10,22 @@
 }
 
 
-.navbar img {
+.logo {
+    width: 300px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.logo img {
     width: 400px;
+    height: 300px;
+    margin: -90px 0 0 -30px;
     -webkit-filter: drop-shadow(5px 5px 5px #000000);
         filter: drop-shadow(5px 5px 5px #000000);
-    
 }
+
+
+
 .nav-menu {
     display: flex;
 }
