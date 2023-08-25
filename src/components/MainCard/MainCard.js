@@ -5,9 +5,11 @@ import Navbar from '../Navbar/Navbar'
 
 export default function MainCard ({listOfJobs}) {
 
+    
     const jobList = listOfJobs && listOfJobs.map(job => {
         return (
             job.isactive? 
+            
                 <li className="joblist-item" key={job.id}>
                     <CompanyMini 
                     company={job.company}
@@ -17,6 +19,8 @@ export default function MainCard ({listOfJobs}) {
                 </li> : ""
         )
     })
+    let limitedArray = Array.isArray(jobList) ? jobList.slice(0,5) : [];
+
 
     return (
         
@@ -28,7 +32,7 @@ export default function MainCard ({listOfJobs}) {
                 <h3 className="card--advertisement--title">Alredy recruiting</h3>
             </div>
             <ul className="joblist-wrapper">
-                {jobList}
+                {limitedArray}
             </ul>
             
         </section>
